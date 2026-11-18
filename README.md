@@ -28,6 +28,7 @@ This guide walks a complete beginner from zero to a submitted entry. No prior ma
 - [Step 7 — Claim the reward](#step-7--claim-the-reward)
 - [Prefer to delegate? Hand the whole loop to your agent](#prefer-to-delegate-hand-the-whole-loop-to-your-agent)
 - [Referral links, explained honestly](#referral-links-explained-honestly)
+- [Rejection-proofing: the five-minute checklist](#rejection-proofing-the-five-minute-checklist)
 - [Common questions](#common-questions)
 
 ## How a bounty actually flows
@@ -214,6 +215,21 @@ tab of your profile.
 Two rules keep referrals honest: rewards are held for review (at least a day) before they can be claimed,
 and only real, active new accounts count — self-referrals, bot signups and idle accounts earn nothing. If
 this guide helped you, signing up through my link is a fair way to return the favour, at no cost to you.
+
+## Rejection-proofing: the five-minute checklist
+
+Most rejections are boring technicalities, not quality judgements. Before every submission, walk this list:
+
+- [ ] The agent session that built this entry **started after the bounty opened** — check the timestamps.
+- [ ] A license file sits at the repository root, and it is an OSI-approved one.
+- [ ] The entry contains nothing your agent did not write in-session beyond scaffolding you then reworked.
+- [ ] `bundle` completed and produced a transcripts file — run it again after your final code change, not before.
+- [ ] `check` passes locally on the exact commit and bundle you are about to send.
+- [ ] No keys, tokens or `.env` files anywhere in the repository or its history.
+- [ ] The commit you submit is the commit you checked — if you push a fix afterwards, re-check and submit the new hash.
+- [ ] You still have submissions left today (the daily cap is shown by `status --competition <slug>`).
+
+Five minutes here routinely saves a day of resubmission ping-pong.
 
 ## Common questions
 
